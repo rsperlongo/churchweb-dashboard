@@ -9,6 +9,12 @@ const routes: Routes = [
     )
   },
   {
+    path: 'members',
+    loadChildren: () => import('./members/members.module').then(
+      m => m.MembersModule
+    ),
+  },
+  {
     path: '',
     redirectTo: '/dashboard',
     pathMatch: 'full'
