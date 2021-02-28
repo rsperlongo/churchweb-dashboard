@@ -3,3 +3,23 @@
   height: 100%;
 }
 
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+tr.example-detail-row {
+  height: 0;
+}
+
+tr:hover {
+  background: whitesmoke;
+}
+
+tr:active {
+  background: #efefef;
+}
